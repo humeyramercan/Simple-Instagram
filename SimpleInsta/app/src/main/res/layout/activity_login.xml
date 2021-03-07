@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFD600"
+    tools:context=".view.LoginActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="247dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="92dp"
+        android:backgroundTint="#FFD600"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:gravity="center"
+        android:text="Simple Insta"
+        android:textAlignment="center"
+        android:textColor="#304FFE"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="313dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/rounded_edit_text_view"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="email enter"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/passwordEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.923" />
+
+    <Button
+        android:id="@+id/sigInButton"
+        android:layout_width="144dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="176dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="signIn"
+        android:text="SIGN IN"
+        android:textColor="#6200EA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/signUpButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="144dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="176dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="signUp"
+        android:text="SIGN UP"
+        android:textColor="#6200EA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="313dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="252dp"
+        android:background="@drawable/rounded_edit_text_view"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="password enter"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+
+        android:id="@+id/passwordResetTextView"
+        android:layout_width="213dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="108dp"
+        android:background="#FFD600"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:gravity="center"
+        android:onClick="passwordReset"
+        android:text="password reset"
+        android:textAlignment="center"
+
+        android:textColor="#6200EA"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

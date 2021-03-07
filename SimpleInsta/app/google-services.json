@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "197582459241",
+    "project_id": "simpleinsta-6dbb9",
+    "storage_bucket": "simpleinsta-6dbb9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197582459241:android:2b3802e933bc0c84b3adf8",
+        "android_client_info": {
+          "package_name": "com.humeyramercan.simpleinsta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197582459241-u0v5abk1t462uq173heitto76d0gg8fm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxlwOiXzZT-4ZwxQkn_yREu7w7W5t57AA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197582459241-u0v5abk1t462uq173heitto76d0gg8fm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
